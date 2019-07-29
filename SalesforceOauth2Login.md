@@ -38,7 +38,7 @@ Client Id and Client Secret are necessary for connecting your salesforce account
     
     * click **"Save"** it, then click **"Continue"**. Please be noticed that any changes you made will take 2-10 minutes to take effect on salesforce server.
 
-    <img alt = "Continue page" src = "/continue.png">
+    <img alt = "Continue page" src = "/continue.png" width="60%">
 
 * Generate Client Id and Client Secret
     * In the new page, the system generate **"Customer key"** and **"Customer Secret"** for future Api connection, please copy them and return to the ivy admin system
