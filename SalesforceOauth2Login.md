@@ -3,14 +3,10 @@ Connect with Salesforce
 
 Introduction
 ------------
-Ivy provide function of Data Integration with Salesforce
 
 
-
-
-
-
-How to find Client Id and Client Secret
+\
+Step1: Find Client Id and Client Secret
 ----------------------------
 Client Id and Client Secret are necessary for connecting your salesforce account with Ivy. This section will introduce you how to generate Client Id and Client Secret to grant Ivy authorization to connect with your salesforce account. 
 
@@ -27,9 +23,9 @@ Client Id and Client Secret are necessary for connecting your salesforce account
     <img alt = "App" src = "/appPage.png">
 
     * Fill below information into the form:
-        >Contact App Name: Ivy
-        >API Name: Ivy
-        >Contact Email: support@ivy.ai
+        >Contact App Name: Ivy <br>
+        >API Name: Ivy <br>
+        >Contact Email: support@ivy.ai <br>
     * Next, Select the **"Enable OAuth Settings"** 
     * Fill the **"Callback URL"** with:
         > https://<span>bot.ivy</span>.ai/admin/configuration/integration/salesforce/callback
@@ -44,19 +40,24 @@ Client Id and Client Secret are necessary for connecting your salesforce account
 
     <img alt = "Continue page" src = "/continue.png">
 
+* Generate Client Id and Client Secret
     * In the new page, the system generate **"Customer key"** and **"Customer Secret"** for future Api connection, please copy them and return to the ivy admin system
 
     <img alt = "Result page" src = "/resultPage.png">
 
-
-
-Get Authorization
+\
+Step2: Set Refresh Policy
 --------------
-1. Login to Salesforce 
-2. return to
+Before going back to the Ivy admin system, you need to set the refresh policy to make sure that Access can be automatically refreshed. 
 
-Data Integration
-----------------
-1. Back to ivy admin system 
-2.  
+* Go to Manage Connect Apps
+    * Click **"Manage Connected Apps"** on the left sidebar
+    * Then Find App "Ivy", click **"Edit"**
+    <img alt="Manage App Page" src="/manageAppPage.png">
+* Change Refresh Tooken Policy
+    * select **"Refresh Token is valid until revoked"** as Refresh Token Policy
+    * Save settings
+    <img alt="Edit Policy" src="editPolicy.png">
+    
+
 
