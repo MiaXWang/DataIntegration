@@ -20,7 +20,7 @@ Client Id and Client Secret are necessary for connecting your salesforce account
     * Then, click **"App Manager"**
     * Now click **"New Connected App"** on the right side
 
-    <img alt = "App" src = "/appPage.png">
+    <img alt = "App" src = "/AppPage.png">
 
     * Fill below information into the form:
         >Contact App Name: Ivy <br>
