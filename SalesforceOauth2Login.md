@@ -30,9 +30,9 @@ Client Id and Client Secret are necessary for connecting your salesforce account
     * Fill the **"Callback URL"** with:
         > https://<span>bot.ivy</span>.ai/admin/configuration/integration/salesforce/callback
     * Enable the following Scopes:
-        >Access and manage your data (api)
-        >Perform requests on your behalf at any time (refresh_token,offline_access)
-        >Provide access to your data via the Web (web)
+        >Access and manage your data (api) <br>
+        >Perform requests on your behalf at any time (refresh_token,offline_access)<br>
+        >Provide access to your data via the Web (web)<br>
 
     <img alt = "Build a new connected App" src = "/createApp.png">
     
