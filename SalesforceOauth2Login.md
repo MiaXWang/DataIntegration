@@ -25,7 +25,7 @@ Client Id and Client Secret are necessary for connecting your salesforce account
     * Fill below information into the form:
         >Contact App Name: Ivy <br>
         >API Name: Ivy <br>
-        >Contact Email: support@ivy.ai <br>
+        >Contact Email: contact@ivy.ai <br>
     * Next, Select the **"Enable OAuth Settings"** 
     * Fill the **"Callback URL"** with:
         > https://<span>bot.ivy</span>.ai/admin/configuration/integration/salesforce/callback
